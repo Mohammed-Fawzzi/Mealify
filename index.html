@@ -1,349 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <title>Mealify</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/all.min.css">
-    <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    <!-- Start Nav -->
-
-    <nav>
-
-        <div class="container">
-
-            <div class="logo">
-                <h1><a href="#">Mealify</a></h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#chefs">chefs</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-
-            <div class="menus">
-                <label class="mode">
-                    <i class="fa-solid fa-moon"></i>
-                </label>
-                <label class="menu">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
-            </div>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Shark Pirate</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md fixed-top shadow-lg">
+      <div class="container-fluid px-4">
+        <p class="navbar-brand logo my-2 fw-bold" href="#">Shark Pirate</p>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Roadmap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contract Address</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <!-- End Nav -->
-
-    <!-- Start Header -->
-
-    <header id="home">
-        <div class="container">
-
-            <div class="header-content">
-                <h2>Enjoy Your Healthy<br>Delicious Food</h2>
-                <p>
-                    Sed autem laudantium dolores. Voluptatem itaque ea consequatur
-                    eveniet. Eum quas beatae cumque eum quaerat.
-                </p>
-                <div class="btn-group">
-                    <a href="#contact" class="btn-book">Book a Table</a>
-                    <a href="https://youtube.com" target="_blank" class="btn-video">
-                        <div class="icon">
-                            <i class="fa-solid fa-play"></i>
-                        </div>
-                    </a>
-                </div>
+    <!-- Header -->
+    <header class="my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="fw-bold my-5">Unleashing the Power of the Seas.</h1>
+            <p>
+              Join the Shark Pirate Crew and show the world what true crypto
+              pirates can achieve. We don’t wait we take action and conquer the
+              seas.
+            </p>
+            <div class="social-icons my-5">
+              <a href="#" class="icon x">
+                <i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="#" class="icon telegram"
+                ><i class="fab fa-telegram-plane fs-2"></i
+              ></a>
             </div>
-
-            <div class="header-image">
-                <img src="images/hero-img.png" alt="hero">
-            </div>
-
+          </div>
         </div>
+      </div>
     </header>
 
-    <!-- End Header -->
-
-    <!-- Start Chefs -->
-    <div class="chefs" id="chefs">
-        <div class="container">
-            <div class="main-title">
-                <h2>Chefs</h2>
-                <p>Our <span>Proffesional</span> Chefs</p>
+    <!-- Shark Pirate -->
+    <section class="shark py-5" id="shark">
+      <!-- Coins Container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 mb-5">
+            <div
+              class="image-box d-flex justify-content-center align-items-center dexscreener"
+            >
+              <img src="./imgs/dexscreener.webp" alt="coin" />
             </div>
-            <div class="chefs-cards">
-                <div class="card">
-                    <div class="image">
-                        <img src="images/chefs/chefs-1.jpg" alt="chefs-1">
-                    </div>
-                    <div class="card-content">
-                        <h3>Walter White</h3>
-                        <span>Master Chef</span>
-                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
-                            exercitationem iure minima enim corporis et voluptate.</p>
-                    </div>
-                    <ul class="social-box">
-                        <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                        </li>
-                        <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        </li>
-                        <li><a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="image">
-                        <img src="images/chefs/chefs-2.jpg" alt="chefs-2">
-                    </div>
-                    <div class="card-content">
-                        <h3>Sarah Jhonson</h3>
-                        <span>Patissier</span>
-                        <p>
-                            Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. 
-                            Voluptate sed quas reiciendis animi neque sapiente.
-                        </p>
-                    </div>
-                    <ul class="social-box">
-                        <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                        </li>
-                        <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        </li>
-                        <li><a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="image">
-                        <img src="images/chefs/chefs-3.jpg" alt="chefs-3">
-                    </div>
-                    <div class="card-content">
-                        <h3>William Anderson</h3>
-                        <span>Cook</span>
-                        <p>
-                            Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. 
-                            Voluptates enim aut architecto porro aspernatur molestiae mod
-                        </p>
-                    </div>
-                    <ul class="social-box">
-                        <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                        </li>
-                        <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        </li>
-                        <li><a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                        </li>
-                    </ul>
-                </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <div
+              class="image-box d-flex justify-content-center align-items-center coingecko"
+            >
+              <img src="./imgs/coingecko.webp" alt="coin" />
             </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <div
+              class="image-box d-flex justify-content-center align-items-center coinmarketcap"
+            >
+              <img src="./imgs/Coinmarketcap.webp" alt="coin" />
+            </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <div
+              class="image-box d-flex justify-content-center align-items-center solana"
+            >
+              <img src="./imgs/solana.webp" alt="coin" />
+            </div>
+          </div>
         </div>
-    </div>
-    <!-- End Chef -->
+      </div>
 
-    <!-- Start Gallery -->
-    <div class="gallery" id="gallery">
-        <div class="container">
-            <div class="main-title">
-                <h2>GALLERY</h2>
-                <p>Check <span>Our Gallery</span></p>
+      <!-- Coins Code -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./imgs/shark1.webp" alt="" class="w-100" />
+          </div>
+          <div class="col-md-6 my-5">
+            <h1 class="fw-bold mt-5 mb-3">$Shark Pirate</h1>
+            <h5 class="mb-5">
+              A tough-as-nails dog and the boss of the cartel.
+            </h5>
+            <p class="mb-5">
+              DOGCARTEL, the original boss dog, always rocking a yellow hoodie
+              and ready to throw down. Raised in the grind, now clawing his way
+              to the top of the crypto game.
+            </p>
+            <!-- Copy -->
+            <div class="d-flex">
+              <div class="copy-container">
+                <p class="me-5 text-uppercase fw-bold my-2">Contact</p>
+                <span id="text-to-copy">9x1FLju</span>
+                <button id="copy-btn">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+              <div id="copied-message" class="copied-message d-none">
+                <p class="me-5">Copied</p>
+              </div>
             </div>
-            <div class="gallery-photos">
-                <div class="image pizza">
-                    <img src="images/gallery/meal-1.jpg" alt="meal-1">
-                    <div class="layer">
-                        <h2>Pizza</h2>
-                        <p>Hawaiian pizza with ham and pineapple</p>
-                    </div>
-                </div>
-                <div class="image pizza-slices">
-                    <img src="images/gallery/meal-4.jpg" alt="meal-4">
-                    <div class="layer">
-                        <h2>Levitation pizza</h2>
-                        <p>Levitation pizza on black background.</p>
-                    </div>
-                </div>
-                <div class="image steak">
-                    <img src="images/gallery/meal-2.jpg" alt="meal-2">
-                    <div class="layer">
-                        <h2>Beef steaks</h2>
-                        <p>Tasty beef steaks flying above cast iron grate with fire flames.</p>
-                    </div>
-                </div>
-                <div class="image omelette">
-                    <img src="images/gallery/meal-7.jpg" alt="meal-7">
-                    <div class="layer">
-                        <h2>Frittata</h2>
-                        <p>Frittata or potato pie in a ceramic plate</p>
-                    </div>
-                </div>
-                <div class="image burger">
-                    <img src="images/gallery/meal-3.jpg" alt="meal-3">
-                    <div class="layer">
-                        <h2>Burger</h2>
-                        <p>grass fed bison hamburger with chips & beer</p>
-                    </div>
-                </div>
-                <div class="image fried">
-                    <img src="images/gallery/meal-5.jpg" alt="meal-5">
-                    <div class="layer">
-                        <h2>Crispy Fried Chicken</h2>
-                        <p>Golden brown chicken legs with a crunchy coating and juicy meat</p>
-                    </div>
-                </div>
-                <div class="image kofta">
-                    <img src="images/gallery/meal-6.jpg" alt="meal-6">
-                    <div class="layer">
-                        <h2>Lyulya kebab</h2>
-                        <p>Tender and juicy skewers of ground lamb or beef, flavored with
-                            aromatic spices and herbs</p>
-                    </div>
-                </div>
+
+            <div>
+              <button
+                class="btn btn-warning rounded-pill my-4 py-2 px-4 btn-with-arrow"
+              >
+                BUY <span class="fw-bold">$SHARKPIRATE</span>
+                <i class="fa-solid fa-arrow-right ms-2 arrow-icon"></i>
+              </button>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- End Gallery -->
+      </div>
+    </section>
 
-    <!-- Start Contact -->
-    <div class="contact" id="contact">
-        <div class="container">
-            <div class="main-title">
-                <h2>GALLERY</h2>
-                <p>Check <span>Our Gallery</span></p>
+    <!-- Are you ready? -->
+    <section class="ready py-5" id="ready">
+      <div class="container">
+        <div class="row justify-content-center gap-5">
+          <h1 class="text-center fw-bold mb-5 pb-4">Are you ready?</h1>
+          <div class="col-md-3">
+            <div class="supply px-4 pb-2">
+              <h3 class="py-4">Supply:</h3>
+              <p>1,000,000,000</p>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.361281103473!2d-74.00356277511241!3d40.71006263773577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sar!2seg!4v1719151498282!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="details">
-                <div class="info">
-                    <div class="icon">
-                        <i class="fa-regular fa-map"></i>
-                    </div>
-                    <div class="address-contact">
-                        <h3>Our Address</h3>
-                        <p>A108 Adam Street, New York, NY 535022</p>
-                    </div>
-                </div>
-                <div class="info">
-                    <div class="icon">
-                        <i class="fa-regular fa-envelope"></i>
-                    </div>
-                    <div class="address-contact">
-                        <h3>Email Us</h3>
-                        <p>contact@example.com</p>
-                    </div>
-                </div>
-                <div class="info">
-                    <div class="icon">
-                        <i class="fa-solid fa-phone"></i>
-                    </div>
-                    <div class="address-contact">
-                        <h3>Call Us</h3>
-                        <p>+1 5589 55488 55</p>
-                    </div>
-                </div>
-                <div class="info">
-                    <div class="icon">
-                        <i class="fa-solid fa-share-nodes"></i>
-                    </div>
-                    <div class="address-contact">
-                        <h3>Opening Hours</h3>
-                        <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday</strong> : Closed</p>
-                    </div>
-                </div>
+          </div>
+          <div class="col-md-3">
+            <div class="tax px-4 pb-2">
+              <h3 class="py-4">Tax:</h3>
+              <p>0%</p>
             </div>
-            <form>
-                <div class="input-group">
-                    <input type="text" name="name" placeholder="Your Name">
-                    <input type="email" name="email" placeholder="Your Email">
-                </div>
-                <input type="text" name="subject" placeholder="Subject">
-                <textarea name="message" placeholder="Message" cols="30" rows="9"></textarea>
-                <button class="send-message">Send Message</button>
-            </form>
+          </div>
+          <div class="col-md-3">
+            <div class="liquidity px-4 pb-2">
+              <h3 class="py-4">Liquidity:</h3>
+              <p>Burned Forever</p>
+            </div>
+          </div>
         </div>
-    </div>
-    <!-- End Contact -->
+      </div>
+    </section>
 
-    <!-- Start Footer -->
-    <footer>
-        <div class="container">
-            <div class="about">
-                <div class="logo">
-                    <img src="images/favicon.png" alt="Mealify Logo">
-                    <h2>Mealify</h2>
-                </div>
-                <p>Mealify is a restaurant landing page that offers a delicious dining experience to its customers.</p>
-                <h3>Social Media</h3>
-                <ul class="social-media">
-                    <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    </li>
-                    <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li><a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="subscription">
-                <div class="subscription-info">
-                    <h3>Subscribe our Newsletter</h3>
-                    <p>Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and
-                        stay up-to-date with all things Mealify!</p>
-                    <div class="subscription-form">
-                        <input type="email" name="email" placeholder="Enter Your Email Address">
-                        <button class="btn-subscription"><i class="fa-solid fa-envelope"></i> Subscription</button>
-                    </div>
-                </div>
-                <div class="quick-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Menu</a></li>
-                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
-                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Testimonial</a></li>
-                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Promo</a></li>
-                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Contact</a></li>
-                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Our Parners</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="contact-details">
-                <h3>Get in Touch</h3>
+    <!-- Roadmap -->
+    <section class="roadmap py-5" id="roadmap">
+      <div class="container py-5">
+        <h1 class="my-5">ROADMAP</h1>
+        <div class="main-timeline-2">
+          <div class="timeline-2 left-2">
+            <div class="card">
+              <img
+                src="./imgs/shark2.webp"
+                class="card-img-top"
+                alt="Responsive image"
+              />
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">Goals to crush:</h4>
                 <ul>
-                    <li><i class="fa-solid fa-location-dot"></i> <a>A108 Adam Street, New York, NY
-                            535022</a>
-                    </li>
-                    <li><i class="fa-solid fa-envelope"></i> <a
-                            href="mailto:contact@example.com">contact@example.com</a></li>
-                    <li><i class="fa-solid fa-phone"></i> <a href="tel:+1 5589 55488 55">+1 5589 55488 55</a></li>
+                  <li>✔️ Public Presale $DOGCARTEL token</li>
+                  <li>✔️ Launch official dogcartel.xyz website</li>
+                  <li>Grow Telegram and X 1,000+ each</li>
+                  <li>✔️ Assemble a Committed Team</li>
+                  <li>Fair Launch $DOGCARTEL token on DEX</li>
+                  <li>Hit over $1,000,000 market cap ATH</li>
+                  <li>CoinGecko Listing</li>
                 </ul>
+              </div>
             </div>
+          </div>
+          <div class="timeline-2 right-2">
+            <div class="card">
+              <img
+                src="./imgs/shark3.webp"
+                class="card-img-top"
+                alt="Responsive image"
+              />
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">Goals to crush:</h4>
+                <ul>
+                  <li>$SHARKPIRATE over $10,000,000 market cap</li>
+                  <li>X over 10,000 followers</li>
+                  <li>Telegram over 5,000 members</li>
+                  <li>CoinMarketCap Listing</li>
+                  <li>
+                    Release The First Chapter of the Dog Cartel Game in Private
+                    Beta
+                  </li>
+                  <li>
+                    Early Presale Supporters will gain exclusive access to the
+                    Private Beta!
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-2 left-2">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(131).webp"
+                class="card-img-top"
+                alt="Responsive image"
+              />
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">To be announced.</h4>
+                <p class="mb-0">
+                  Each phase may bring unforeseen developments that could
+                  influence the next. Rather than pretending to have all the
+                  answers upfront, we’ll keep you informed with regular updates
+                  to the roadmap, ensuring you're always in the loop.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
-    <!-- End Footer -->
-    <script>
-        let moonBtn = document.querySelector('.mode');
-        moonBtn.addEventListener('click', function () {
-            document.body.classList.toggle('dark-mode')
-        });
-        let menuBtn = document.querySelector('.menu');
-        let navLinks = document.querySelector('.nav-links');
-        menuBtn.addEventListener('click', function () {
-            navLinks.classList.toggle('active')
-        });
-    </script>
-</body>
+      </div>
+    </section>
 
+    <!-- Footer -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div
+            class="community p-5 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h1>Join our community.</h1>
+            <p class="my-3 fw-bold">
+              Organic growth. Special people. Giant mission. Zero crime rate.
+            </p>
+            <div
+              class="footer-social-icons d-flex justify-content-center align-items-center my-3"
+            >
+              <div class="icon-group text-center mx-3">
+                <p class="pb-3 fw-bold fs-2">351</p>
+                <p class="pb-3">on</p>
+                <a href="#" class="icon d-flex x">
+                  <i class="fa-brands fa-x-twitter fs-2"></i>
+                </a>
+              </div>
+              <div class="icon-group text-center mx-3">
+                <p class="pb-3 fw-bold fs-2">144</p>
+                <p class="pb-3">on</p>
+                <a href="#" class="icon d-flex telegram">
+                  <i class="fab fa-telegram-plane fs-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
